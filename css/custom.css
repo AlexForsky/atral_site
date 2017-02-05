@@ -1,0 +1,118 @@
+/* font-family: "UbuntuLight"; */
+/* font-family: "UbuntuRegular"; */
+@font-face {
+    font-family: "UbuntuRegular";
+    src: url("../fonts/UbuntuRegular/UbuntuRegular.eot");
+    src: url("../fonts/UbuntuRegular/UbuntuRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/UbuntuRegular/UbuntuRegular.woff") format("woff"),
+    url("../fonts/UbuntuRegular/UbuntuRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "UbuntuLight";
+    src: url("../fonts/UbuntuLight/UbuntuLight.eot");
+    src: url("../fonts/UbuntuLight/UbuntuLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/UbuntuLight/UbuntuLight.woff") format("woff"),
+    url("../fonts/UbuntuLight/UbuntuLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+	
+	margin: 0 auto;
+}
+
+/* HEADER*/
+header {
+	background-color: #f2f2f2;
+}
+
+
+.header-top {
+	min-height: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 14px;
+	
+	justify-content: space-between;
+	padding: 0 5px;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.header-top__map-text, .header-top__contacts-text {
+	font-family: "UbuntuLight";
+	color: #999999;
+}
+
+.fa-map-marker, .fa-phone, .fa-clock-o {
+	color: #31c1e4;
+}
+
+/*NAV-BLOCK*/
+
+.one-block {
+	background-color: #ffffff;
+}
+.nav-block{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 1170px;
+	margin: 0 auto;
+	min-height: 95px;
+}
+
+.nav-block__left__title {
+	font-family: "UbuntuLight";
+	font-size: 26px;
+	font-style: bold;
+	color: #3c3c3c;
+	padding-left: 10px;
+}
+
+.nav-block__left__title:hover {
+	color: #31c1e4;
+}
+
+.nav-block__left {
+	display: inline-flex;
+	align-items: center;
+
+}
+
+.nav-block__right {
+	display: inline-flex;
+	align-items: center;
+}
+
+.nav-block__right__menu {
+	list-style: none;
+	display: inline;
+}
+
+.nav-block__right__menu-item {
+	display: inline;
+	padding: 0 7px;
+	font-family: "UbuntuRegular";
+	color: #888888;
+}
+
+.nav-block__right__menu-item:hover {
+	color: #31bdde;
+}
+
+.nav-block__right__menu a {
+	text-decoration: none;
+}
+
+/*TWO-BLOCK*/
+
+.two-block {
+	background-image: url("../img/two_block1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 525px;
+}
