@@ -115,4 +115,34 @@ header {
 	background-position: center;
 	background-repeat: no-repeat;
 	min-height: 525px;
+	
+}
+
+.two-block-conteyner{
+	max-width: 1170px;
+	display: flex;
+	justify-content: flex-end;
+	margin: 0 auto;
+	
+}
+.two-block__content {
+	
+	font-family: "UbuntuRegular";
+	font-size: 34px;
+	color: #ffffff;
+	padding-right: 25px;
+	padding-top: 80px; 
+}
+
+.two-block__content__text {
+	font-family: "UbuntuRegular";
+	font-size: 15px;
+	color: #ffffff;
+	background-image: url("../img/Shape2.png");
+	
+	background-repeat: no-repeat;
+	width: 160px;
+	height: 55px;
+	padding-top: 17px;
+	padding-left: 23px;
 }
