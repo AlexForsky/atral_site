@@ -146,3 +146,12 @@ header {
 	padding-top: 17px;
 	padding-left: 23px;
 }
+
+.two-block__content__link {
+	text-decoration: none;
+}
+
+.two-block__content__text:hover {
+	color: #888888;
+	background-image: url("../img/Shape2_2.png");
+}
